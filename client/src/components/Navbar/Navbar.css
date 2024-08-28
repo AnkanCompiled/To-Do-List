@@ -1,0 +1,33 @@
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar-title {
+    margin: 0;
+    margin-top: 5px;
+}
+.navbar-right {
+    justify-self: end;
+    margin-right: 2%;
+}
+
+
+.btn {
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
