@@ -1,0 +1,59 @@
+.login-main-div{
+    font-family: Arial, sans-serif;
+    width: 400px;
+    background: hsla(0, 0%, 100%, 0.9);
+    border-radius: 6px;
+    position : absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 0 5%;
+    padding-right: 7%;
+    color: #333;
+    box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.2);
+    
+}
+
+.login-label {
+    color: crimson;
+}
+
+.login-h3{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.login-div {
+    margin-bottom: 5%;
+}
+
+.login-input {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+
+.submit-button-disable{
+    background-color: white;
+    color: black;
+    cursor: default;
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.submit-button-enable{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+}

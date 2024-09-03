@@ -1,0 +1,48 @@
+.todolist-div{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    column-gap: 1%;
+}
+
+.list-div{
+    height: 800px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.display-div{
+    display: flex;
+    height: 800px;
+    justify-content:center ;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+
+.create-button-div{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.create-button{
+    font-size: large;
+    padding: 5%;
+    padding-left: 30%;
+    padding-right: 30%;
+    border-radius: 15px;
+}
+
+.elements-button{
+    display: block;
+    text-align: left;
+    padding: 5%;
+    background-color: hsla(0, 0%, 100%, 0);
+    border-bottom: 1px solid #ccc;
+}
+.elements-button p{
+    font-size: 14px;
+    color: hwb(0 60% 40%);
+}

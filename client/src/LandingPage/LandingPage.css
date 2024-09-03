@@ -1,0 +1,27 @@
+.text-div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.landing-strong{
+    font-size: 80px;
+    color: white;
+    padding: 2%;
+    box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.2);
+    background-color: hsl(0, 0%, 50%);
+    border-radius: 40px;
+}
+
+.landing-b{
+    color: #333;
+    margin-top: 2%;
+}
+
+.image-div{
+    display: flex;
+    justify-content: center;
+    background-color: #ccc;
+    margin-top: 3%;
+    padding: 2%;
+}
